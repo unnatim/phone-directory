@@ -5,9 +5,18 @@ import React from 'react';
 // This is Functional Component below.
 // The constant name Header refers to the File name Header. Hence both names should be same.
 const Header = function () {
+
+    const headerStyle = {
+        textAlign: 'center',
+        padding: 20,
+        background: '#000',
+        color: '#fff',
+        textTransform: 'uppercase'
+    };
+
     return (
-        <div className="header">
-            Phone-directory
+        <div style={headerStyle}>
+            Phone Directory
         </div>
     )
 }

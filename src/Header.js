@@ -6,10 +6,10 @@ import './Header.css';
 
 // This is Functional Component below.
 // The constant name Header refers to the File name Header. Hence both names should be same.
-const Header = function () {
+const Header = function (props) {
     return (
         <div className="header">
-            Phone Directory
+            {props.heading}
         </div>
     )
 }
@@ -20,7 +20,8 @@ const Header = function () {
 //     render () {
 //         return (
 //             <div className="header">
-//              Phone-directory
+//              {this.props.heading}
+// For Class component, this keyword is required to access the members of the class.
 //             </div>
 //         )
 //     }

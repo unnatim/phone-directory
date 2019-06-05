@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import './AddSubscriber.css';
 
-class AddSusbscriber extends Component {
+class AddSubscriber extends Component {
 
     constructor() {
         super();
@@ -55,4 +55,4 @@ class AddSusbscriber extends Component {
     }
 }
 
-export default AddSusbscriber;
+export default AddSubscriber;
